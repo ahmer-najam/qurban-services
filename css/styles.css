@@ -1203,7 +1203,7 @@ a.contact__row:hover { transform: translateX(4px); box-shadow: var(--shadow); ba
 @media (max-width: 860px) {
   .topbar__hours { display: none; }
 
-  .nav-toggle { display: flex; }
+  .nav-toggle { display: flex; position: relative; z-index: 90; }
   .nav {
     position: fixed; top: 0; right: 0; bottom: 0; z-index: 85;
     width: min(80vw, 320px);
