@@ -170,6 +170,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
   transition: box-shadow 0.25s ease;
 }
 .header.scrolled { box-shadow: 0 10px 30px rgba(8, 28, 64, 0.1); }
+.header.menu-open { background: #ffffff; backdrop-filter: none; -webkit-backdrop-filter: none; }
 
 .header__inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 14px; padding-bottom: 14px; }
 

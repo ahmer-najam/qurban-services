@@ -58,6 +58,7 @@
     navToggle.setAttribute("aria-expanded", "false");
     scrim.classList.remove("show");
     document.body.style.overflow = "";
+    header.classList.remove("menu-open");
   }
 
   function toggleNav() {
@@ -66,6 +67,7 @@
     navToggle.setAttribute("aria-expanded", String(open));
     scrim.classList.toggle("show", open);
     document.body.style.overflow = open ? "hidden" : "";
+    header.classList.toggle("menu-open", open);
   }
 
   navToggle.addEventListener("click", toggleNav);
