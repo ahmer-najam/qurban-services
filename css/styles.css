@@ -1212,6 +1212,7 @@ a.contact__row:hover { transform: translateX(4px); box-shadow: var(--shadow); ba
     padding: 92px 28px 30px;
     transform: translateX(105%);
     transition: transform 0.35s ease;
+    backdrop-filter: none; -webkit-backdrop-filter: none;
   }
   .nav.open { transform: translateX(0); }
   .nav__list { flex-direction: column; align-items: stretch; gap: 4px; }
