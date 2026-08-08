@@ -1204,16 +1204,15 @@ a.contact__row:hover { transform: translateX(4px); box-shadow: var(--shadow); ba
   .topbar__hours { display: none; }
 
   .nav-toggle { display: flex; position: relative; z-index: 90; }
+  .header { background: #ffffff; backdrop-filter: none; -webkit-backdrop-filter: none; }
   .nav {
     position: fixed; top: 0; right: 0; bottom: 0; z-index: 85;
     width: min(80vw, 320px);
-    background: #fff; box-shadow: -20px 0 50px rgba(8, 28, 64, 0.2);
+    background: #ffffff; box-shadow: -20px 0 50px rgba(8, 28, 64, 0.2);
     flex-direction: column; justify-content: flex-start; align-items: stretch; gap: 0;
     padding: 92px 28px 30px;
     transform: translateX(105%);
     transition: transform 0.35s ease;
-    backdrop-filter: none; -webkit-backdrop-filter: none;
-    isolation: isolate;
   }
   .nav.open { transform: translateX(0); }
   .nav__list { flex-direction: column; align-items: stretch; gap: 4px; }
